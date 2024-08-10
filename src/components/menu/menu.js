@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Menu() {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#000" }}>
       <Toolbar>
         <div className={style.logo}>
           <img src="./logo.png" alt="/" />

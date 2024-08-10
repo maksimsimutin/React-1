@@ -3,6 +3,7 @@ import React from "react";
 
 import Menu from "./components/menu/menu";
 import CardList from "./components/singleCard/cardList";
+import Footer from "./components/footer/footer";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
       <CardList movies={movies} onCardClick={handleCardClick} />
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  height: 250px;
+  padding: 0 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.listUnstyled {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.text {
+  color: #fff;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.listInline {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.block2,
+.block3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockTitle {
+  color: #fff;
+}
+
+.payImg {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.payImg img {
+  width: 100px;
+}
